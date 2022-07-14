@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MVCApp.Models;
 
 namespace MVCApp.Controllers
 {
@@ -8,7 +9,13 @@ namespace MVCApp.Controllers
         // GET: BooksController
         public ActionResult Index()
         {
-            return View();
+            List<Books> books = new List<Books>();
+            books.Add(new Books(0, "Harry potter and order of phenix", "Homoglobin"));
+            books.Add(new Books(1, "Grimpy baskin", "Boonza shah"));
+            books.Add(new Books(2, "Erotica filmon", "Contipa"));
+            books.Add(new Books(3, "Pricks Adventure", "Gristof animal"));
+
+            return View("Index", books);
         }
 
         // GET: BooksController/Details/5

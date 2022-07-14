@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CC\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj": {}
+    "D:\\demo projects\\mvcworkstation\\MVCApp\\MVCApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CC\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj": {
+    "D:\\demo projects\\mvcworkstation\\MVCApp\\MVCApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CC\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj",
+        "projectUniqueName": "D:\\demo projects\\mvcworkstation\\MVCApp\\MVCApp.csproj",
         "projectName": "MVCApp",
-        "projectPath": "C:\\Users\\CC\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj",
+        "projectPath": "D:\\demo projects\\mvcworkstation\\MVCApp\\MVCApp.csproj",
         "packagesPath": "C:\\Users\\CC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CC\\source\\repos\\MVCApp\\MVCApp\\obj\\",
+        "outputPath": "D:\\demo projects\\mvcworkstation\\MVCApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.0.7, )"
             }
           },
           "imports": [
